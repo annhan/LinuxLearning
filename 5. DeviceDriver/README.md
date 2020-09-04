@@ -1,15 +1,3 @@
- Về Device Driver
-Date: Tháng Mười 31, 2018
-Author: nguyenanhgiau1008
-0 Bình luận
-Trong phần này chúng ta sẽ tìm hiểu:
-
-Tìm hiểu về device driver (khái niệm, mục đích, phân loại,…)
-Quy trình để build module, cũng như việc load và unload nó
-Khung driver và quản lý các message debug
-Xử lý lỗi trong driver
-Build và test first driver
-Device driver đóng một vai trò đặc biệt trong Linux kernel. Nó có nhiệm vụ điều khiển và quản lý một hardware cụ thể (USART, SPI, USB,…), nó ẩn đi hoàn toàn cách thức device làm việc. Đôi khi, nó còn được gọi là kernel module hay ngắn gọn là module. Nó có thể plug-and-play runtime khi cần.
 
 Phân loại Device Driver:
 Character: Là driver không có buffer I/O, chiếm số đông trong những driver.
