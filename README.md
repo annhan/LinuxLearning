@@ -7,3 +7,5 @@ Bốn thành phần quan trọng của embedded Linux:
 - Kernel: trái tim của hệ thống, có nhiệm vụ quản lý tài nguyên và giao tiếp với hardware.
 
 - Root filesystem: chứa các thư viện và chương trình được chạy sau khi quá trình khởi tạo kernel hoàn thành.
+
+Copy: https://anhgiau.wordpress.com/
